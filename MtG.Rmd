@@ -1,0 +1,14 @@
+---
+title: 'MtG: Outs Calculator'
+author: "Andrew Wagner"
+date: "September 27, 2015"
+output: html_document
+---
+
+Magic the Gathering: Outs Calculator
+
+Magic the Gathering is a trading card game where players build decks and compete against one another using randomized versions of those decks. At the beginning of the game, you draw 7 cards from your deck (known as a library). Different cards serve different functions, and with some exceptions, a player can only have 4 of any card in their deck at one time.
+
+Decks can have many different strategies, but a large portion of the challenge of the game is mitigating the variance inherent when shuffling cards. As a result, sometimes it pays to know the likelihood of drawing a subset of cards in your deck. If you know your deck well enough (and most top-level players do), it's possible to calculate how likely it is to draw a card, which can affect lots of possible decisions one can make.
+
+This calculator simply takes inputs and calculates the odds of drawing an 'out' within a specified number of draws.
